@@ -22,19 +22,19 @@ int main() {
   cout << "Developed by Neilor Caldeira at UFMG" << endl << endl;
 
   do {
-    cout << "========== Lista 01 - Funções ==========" << endl;
-    cout << "[ 1] - Média" << endl;
-    cout << "[ 2] - Média Ponderada" << endl;
-    cout << "[ 3] - Perímetro" << endl;
-    cout << "[ 4] - Área de Círculo" << endl;
-    cout << "[ 5] - Área de Triângulo" << endl;
-    cout << "[ 6] - Área de Caixa" << endl;
+    cout << "========== Lista 01 - Funcoes ==========" << endl;
+    cout << "[ 1] - Media" << endl;
+    cout << "[ 2] - Media Ponderada" << endl;
+    cout << "[ 3] - Perimetro" << endl;
+    cout << "[ 4] - Area de Circulo" << endl;
+    cout << "[ 5] - Area de Triangulo" << endl;
+    cout << "[ 6] - Area de Caixa" << endl;
     cout << "[ 7] - Volume de Caixa" << endl;
-    cout << "[ 8] - Área de Cilindro" << endl;
+    cout << "[ 8] - Area de Cilindro" << endl;
     cout << "[ 9] - Volume de Cilindro" << endl;
     cout << "[10] - Hipotenusa" << endl;
     cout << "[ 0] - Sair" << endl;
-    cout << "Escolha uma opção: ";
+    cout << "Escolha uma opcao: ";
     cin >> selected_option;
     cout << endl;
 
@@ -58,7 +58,7 @@ int main() {
         cin >> p3;
         cout << endl;
 
-        cout "=> " << media(p1, p2, p3) << endl << endl;
+        cout << "=> " << media(p1, p2, p3) << endl << endl;
 
         break;
 
@@ -76,7 +76,7 @@ int main() {
         cin >> p3;
         cout << endl;
 
-        cout "=> " << media_ponderada(p1, p2, p3) << endl << endl;
+        cout << "=> " << media_ponderada(p1, p2, p3) << endl << endl;
 
         break;
 
@@ -88,7 +88,7 @@ int main() {
         cin >> p1;
         cout << endl;
 
-        cout "=> " << perimetro(p1) << endl << endl;
+        cout << "=> " << perimetro(p1) << endl << endl;
 
         break;
 
@@ -100,7 +100,7 @@ int main() {
         cin >> p1;
         cout << endl;
 
-        cout "=> " << area_circulo(p1) << endl << endl;
+        cout << "=> " << area_circulo(p1) << endl << endl;
 
         break;
 
@@ -115,7 +115,7 @@ int main() {
         cin >> p2;
         cout << endl;
 
-        cout "=> " << area_triangulo(p1, p2) << endl << endl;
+        cout << "=> " << area_triangulo(p1, p2) << endl << endl;
 
         break;
 
@@ -133,7 +133,7 @@ int main() {
         cin >> p3;
         cout << endl;
 
-        cout "=> " << area_caixa(p1, p2, p3) << endl << endl;
+        cout << "=> " << area_caixa(p1, p2, p3) << endl << endl;
 
         break;
 
@@ -151,7 +151,7 @@ int main() {
         cin >> p3;
         cout << endl;
 
-        cout "=> " << volume_caixa(p1, p2, p3) << endl << endl;
+        cout << "=> " << volume_caixa(p1, p2, p3) << endl << endl;
 
         break;
 
@@ -166,7 +166,7 @@ int main() {
         cin >> p2;
         cout << endl;
 
-        cout "=> " << area_cilindro(p1, p2) << endl << endl;
+        cout << "=> " << area_cilindro(p1, p2) << endl << endl;
 
         break;
 
@@ -181,7 +181,7 @@ int main() {
         cin >> p2;
         cout << endl;
 
-        cout "=> " << volume_cilindro(p1, p2) << endl << endl;
+        cout << "=> " << volume_cilindro(p1, p2) << endl << endl;
 
         break;
 
@@ -196,16 +196,16 @@ int main() {
         cin >> p2;
         cout << endl;
 
-        cout "=> " << hipotenusa(p1, p2) << endl << endl;
+        cout << "=> " << hipotenusa(p1, p2) << endl << endl;
 
         break;
 
       default:
-        cout << "Opção inválida" << endl << endl;
+        cout << "Opcao invalida" << endl << endl;
         break;
     }
 
-  } while(selected_option != 0)
+  } while(selected_option != 0);
 
   return 0;
 }

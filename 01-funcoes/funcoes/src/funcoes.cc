@@ -42,5 +42,5 @@ float volume_cilindro(float r, float h) {
 }
 
 float hipotenusa(float b, float c) {
-  return sqrt(pow(b, 2), pow(c, 2));
+  return sqrt(pow(b, 2) + pow(c, 2));
 }
